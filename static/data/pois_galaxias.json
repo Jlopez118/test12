@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Galaxia Espiral M101",
+    "short": "Galaxia con brazos bien definidos",
+    "description": "Una galaxia espiral con formación estelar activa en sus brazos exteriores.",
+    "x": 2000,
+    "y": 2000,
+    "z": 11235,
+    "zoom": 5
+  },
+  {
+    "title": "Galaxia Elíptica E87",
+    "short": "Forma ovalada sin estructura",
+    "description": "Galaxia antigua con poca formación estelar y gran concentración de masa.",
+    "x": 1,
+    "y": 1,
+    "z": 11235,
+    "zoom": 6
+  },
+  {
+    "title": "Grupo Local",
+    "short": "Conjunto de galaxias cercanas",
+    "description": "Incluye la Vía Láctea, Andrómeda y otras galaxias en interacción gravitacional.",
+    "x": 6000,
+    "y": 3000,
+    "z": 11235,
+    "zoom": 4
+  }
+]

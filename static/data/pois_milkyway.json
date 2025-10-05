@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Estrella X",
+    "short": "Gigante roja en el brazo de Orión",
+    "description": "Una estrella masiva que se encuentra en el brazo de Orión, visible desde el hemisferio norte.",
+    "x": 1,
+    "y": 1,
+    "z": 7002,
+    "zoom": 5
+  },
+  {
+    "title": "Nebulosa Y",
+    "short": "Nebulosa de emisión brillante",
+    "description": "Región con intensa radiación ultravioleta que ioniza el gas circundante.",
+    "x": 3000,
+    "y": 1000,
+    "z": 7002,
+    "zoom": 6
+  },
+  {
+    "title": "Planeta Z",
+    "short": "Planeta enano con atmósfera tenue",
+    "description": "Objeto rocoso con atmósfera débil, ubicado en el borde del sistema solar.",
+    "x": 7002,
+    "y": 5050,
+    "z": 7002,
+    "zoom": 4
+  }
+]

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Visor Estelar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/openseadragon.min.js"></script>
+</head>
+<body>
+  <div id="openseadragon1"></div>
+
+  <div id="info-box" class="info-box hidden">
+    <h2 id="info-title"></h2>
+    <p id="info-text"></p>
+    <button id="close-info">Cerrar</button>
+  </div>
+
+  <div class="cards-container">
+    <h1>Mapa Estelar: {{ image_name }}</h1>
+    <p>Haz clic en los marcadores para explorar puntos de interés.</p>
+    <div class="cards" id="menu-cards"></div>
+    <div class="coordinate-input-container">
+        <h3>Ir a Coordenadas Específicas</h3>
+        <form id="coordinate-input-form">
+            <input type="number" id="input-x" placeholder="Coordenada X" required>
+            <input type="number" id="input-y" placeholder="Coordenada Y" required>
+            <button type="submit" id="go-button">IR (50% Zoom)</button>
+        </form>
+    </div> 
+    <p><a href="/" style="color: cyan; text-decoration: none;">← Volver al Portal Principal</a></p>
+  </div>
+
+  <script>
+    const imageName = "{{ image_name }}";
+  </script>
+  <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>

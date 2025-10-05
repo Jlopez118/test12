@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Nebulosa A",
+    "short": "Zona brillante del cúmulo central",
+    "description": "Esta región muestra intensa formación estelar y densas nubes de gas.",
+    "x": 1400,
+    "y": 1,
+    "z": 3000,
+    "zoom": 5
+  },
+  {
+    "title": "Estrella B",
+    "short": "Objeto luminoso al sureste",
+    "description": "Estrella joven con actividad solar elevada.",
+    "x": 1500,
+    "y": 1500,
+    "z": 3000,
+    "zoom": 6
+  },
+  {
+    "title": "Región Oscura C",
+    "short": "Zona de polvo interestelar",
+    "description": "Aquí el gas denso bloquea la luz visible, ideal para observación infrarroja.",
+    "x": 1,
+    "y": 1,
+    "z": 3000,
+    "zoom": 4
+  }
+]
